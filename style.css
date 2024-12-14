@@ -1,0 +1,198 @@
+General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f9;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+h1, h2 {
+    transition: all 0.3s ease;
+}
+
+/* Portfolio Container */
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+    transition: all 0.3s ease;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 25%;
+    background: linear-gradient(145deg, #121213, #1c1c1d);
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sidebar:hover {
+    background: linear-gradient(145deg, #004bb5, #0062cc);
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+hr {
+    margin-top: 10px;
+    border: 0.5px solid #fff;
+}
+
+/* Contact Icons */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+    color: #ff6f61;
+}
+
+/* Main Content Styles */
+.main-content {
+    width: 70%;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-content:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: 3px solid #0062cc;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+h2:hover {
+    color: #ff6f61;
+    border-color: #ff6f61;
+}
+
+/* Paragraphs and Lists */
+p, ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Experience Item Styles */
+.experience-item {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-item:hover {
+    background-color: #ffeb3b;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Hover Effects */
+section:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Additional Gradient Hover Effects for Sections */
+.about, .education, .experience {
+    background: linear-gradient(145deg, #e0f7fa, #81d4fa);
+    border-radius: 15px;
+    padding: 25px;
+    transition: background 0.3s ease;
+}
+
+.about:hover, .education:hover, .experience:hover {
+    background: linear-gradient(145deg, #81d4fa, #29b6f6);
+}
+
+/* Navbar/Action Button */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.floating-button:hover {
+    background-color: #e91e63;
+    transform: scale(1.1);
+}
